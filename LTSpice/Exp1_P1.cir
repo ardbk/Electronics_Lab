@@ -1,0 +1,10 @@
+* Problem 1
+
+V1 n1 0 5 ; 5V source
+R1 n1 n2 11K ; 11K Ohm Resistor
+R2 n2 0 1K ; 1K Ohm Resistor
+R3 n1 n3 1e3 ; 1e3 Ohm Resistor
+R4 n3 0 1000 ; 1000 Ohm Resistor
+R5 n2 n3 1K ; 1K Ohm Resistor
+
+.op ; DC Analysis
